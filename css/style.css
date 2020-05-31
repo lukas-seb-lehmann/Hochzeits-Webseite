@@ -434,7 +434,7 @@ display: grid;
 .button:hover{
 	color: #424242;
 	background-color:white;
-	padding: 15px;
+	
 	transition: 0.3s;
 }
 
