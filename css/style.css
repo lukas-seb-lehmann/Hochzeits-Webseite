@@ -308,11 +308,11 @@ margin-top: 50px;
 	
 	display: grid;
 	grid-gap: 0em;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: 25% 25% 25% 25%;
 	
 }
 .panoimg{
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: 50% 50%;
 }
 
 .imgquote {
@@ -461,13 +461,13 @@ display: grid;
 	}
 .portcontainer{
 	
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: 50% 50%;
 	
 }
 	.grid_5050{
 	
 
-	grid-template-columns: repeat(1, 1fr);
+	grid-template-columns: 100%;
 	
 
 }
@@ -517,7 +517,7 @@ display: grid;
 	
 .portcontainer{
 	
-	grid-template-columns: repeat(1, 1fr);
+	grid-template-columns: 100%;
 	
 }
 	.faq_container {
