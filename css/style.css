@@ -82,7 +82,7 @@ margin-top: 50px;
 	position: absolute;
 	width: 100%;
   height: 6px;
-  background-color: rgba(219,124,30,1.00);
+  background-color: #424242;
  
 	border-radius: 3px;
 
@@ -161,7 +161,7 @@ margin-top: 50px;
 	  transition-duration: .5s;
 		transition-timing-function: ease-out;
 	z-index: 20;
-	background-color: rgba(255,255,255,1.00);
+	background-color: rgba(255,255,255,0.8);
 
 	}
 	
@@ -190,7 +190,7 @@ margin-top: 50px;
 	text-decoration: none;
 	text-align: center;
 	font-size: 40px;
-	color:rgba(219,124,30,1.00);
+	color:#424242;
 	margin: 10px;
 	margin-bottom: 20px;
 	position: relative;
@@ -206,7 +206,7 @@ margin-top: 50px;
 	position: relative;
 	transform-origin: center;
 	right: 0px;
-	border-left: 3px solid rgba(219,124,30,0);
+	border-left: 3px solid rgba(66,66,66,0);
 	transition-duration: 0.3s;
 }
 .menu_ani a:after{
@@ -214,16 +214,16 @@ margin-top: 50px;
 	position: relative;
 	transform-origin: center;
 	left: 0px;
-	border-right: 3px solid rgba(219,124,30,0);
+	border-right: 3px solid rgba(66,66,66,0);
 	transition-duration: 0.3s;
 }
 
 .menu_ani a:hover:before{
-	border-left: 3px solid rgba(219,124,30,1);
+	border-left: 3px solid rgba(66,66,66,0);
 	right: 10px;
 }
 .menu_ani a:hover:after{
-	border-right: 3px solid rgba(219,124,30,1);
+	border-right: 3px solid rgba(66,66,66,1);
 	left: 10px;
 }
 @media (max-width:968px){
@@ -324,7 +324,7 @@ margin-top: 50px;
 
 .portcontainer img{
 	margin-top:0;
-	max-width: 100%;
+	width: 100%;
 	
 
 }
