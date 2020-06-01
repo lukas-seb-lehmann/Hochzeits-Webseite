@@ -68,6 +68,9 @@ p{
     background-position: center center;
 
 }
+#mob_title{
+	display: none;
+}
 /*************ham navi************/
 #ham{
 	position: fixed;
@@ -471,6 +474,20 @@ display: grid;
 	
 	.desk_menu{
 		display: none;
+	}
+	
+	#mob_title{
+		display: block;
+		position: relative;
+		position: absolute;
+		
+		top: 10%;
+	}
+	#mob_title h1{
+		margin: 0;
+		padding-left: 10%;
+		padding-right: 10%;
+		
 	}
 .portcontainer{
 	
