@@ -456,6 +456,17 @@ display: grid;
 	padding: 1em;
 }
 
+/*Datenschutz*/
+#recht h1{
+	text-align: center;
+	padding-top:10%; 
+}
+
+#recht{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 @media (max-width:968px){
 	
 	.desk_menu{
