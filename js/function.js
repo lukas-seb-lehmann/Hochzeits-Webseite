@@ -27,5 +27,12 @@ function closemenu(){
 }
 
 
+// Contact Track
+	
+	function trackcontact(){
+		
+  fbq('track', 'Contact');
+
+	};
 
 	
