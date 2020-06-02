@@ -34,15 +34,16 @@
 	</head>
 
 <body>
-	<!--- Contact Track 
+	<!--- Contact Track -->
 	<script>
-	function trackcontact(){
-		
+	function trackcontact(){	
   fbq('track', 'Contact');
-
-	};
+};
+		function trackmenuportfolio(){
+			fbq('trackCustom', 'menuportfolio');
+		};
 	</script>
--->
+
 	
 	<div id="navi">
 		<div id="titel"><a href="index.html"><h1>Lukas Lehmann - Hochzeitsfotograf</h1></a></div>
@@ -50,7 +51,7 @@
      	
 		
 			
-			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#portfolio" onClick="trackmenuportfolio()">Portfolio</a></li>
 			<li><a href="#uebermich">Über mich</a></li>
 			<li><a href="#faq">FAQ</a></li>
 			<li><a href="#kontakt">Kontakt</a></li> 
@@ -65,7 +66,7 @@
 	
 	<div id="menu">	
 		<ul class="menu_ani">
-			<li> <p> <a href="#portfolio" onClick="span1rot(),menu(),span2dis(),span3rot()">Portfolio</a> </p> </li>
+			<li> <p> <a href="#portfolio" onClick="span1rot(),menu(),span2dis(),span3rot(),trackmenuportfolio()">Portfolio</a> </p> </li>
 			<li> <p> <a href="#uebermich" onClick="span1rot(),menu(),span2dis(),span3rot()">Über mich</a> </p> </li>
 			<li> <p> <a href="#faq" onClick="span1rot(),menu(),span2dis(),span3rot()">FAQ</a> </p> </li>
 			<li> <p> <a href="#kontakt" onClick="span1rot(),menu(),span2dis(),span3rot()">Kontakt</a> </p> </li>
