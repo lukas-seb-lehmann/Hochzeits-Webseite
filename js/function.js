@@ -26,3 +26,6 @@ function closemenu(){
 	menu.classList.toggle("activemenu");
 }
 
+
+
+	

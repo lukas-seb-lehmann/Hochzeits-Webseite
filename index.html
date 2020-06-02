@@ -30,7 +30,14 @@
   src="https://www.facebook.com/tr?id=589544735010993&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-	
+	<!--- Contact Track -->
+	<script>
+	function trackcontact(){
+		
+  fbq('track', 'Contact');
+
+	};
+	</script>
 	</head>
 
 <body>
@@ -206,7 +213,7 @@ Zu meinen Lieblingsorten gehört der Schwarzwald und der Bodensee.</p>
 
 		<div class="grid_item align_column">
 	<p>Schreibt mir am besten direkt eine E-Mail und fragt ganz unverbindlich euren Termin an.</p>
-			<a class="button" id="Kontakt-Button" href="mailto:hello@lukaslehmann-meida.de" >hello@lukaslehmann-media.de</a>
+			<a class="button"  href="mailto:hello@lukaslehmann-meida.de" onClick="trackcontact()" >hello@lukaslehmann-media.de</a>
 			<p>Oder stalkt mich erst auf Instagram...</p>
 			<div class="sm_teaser">
 			<a href="https://www.instagram.com/lukas_lehmann_/" target="_blank"><img src="bilder/DSC5290-Bearbeitet-2.jpg" alt=""></a>
@@ -250,15 +257,7 @@ Zu meinen Lieblingsorten gehört der Schwarzwald und der Bodensee.</p>
 	
 	
 	
-	
-	<script>
-  fbq('track', 'Contact');
-</script>
-	<script type="text/javascript">
-document.getElementById('Kontakt-Button').addEventListener('click', function() {
-fbq('track', 'Contact');
-}, false);
-</script>
+
 	
 	
 	
