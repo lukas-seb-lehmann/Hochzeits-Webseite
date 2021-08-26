@@ -24,13 +24,22 @@ body, html{
     src:url("../font/reforma.1918-blanca-italica.ttf");
 }
 
-h1,h2,h3{
+h1,h2,h3,h4{
 	color: #424242;
 	   font-family: "Refomrma_1918";
 }
 h1{
-	font-size: 25px;
-	color: #424242;
+	font-size: 4.5em;
+	color: white;
+}
+#unterseite_h1 h1{
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 8em;
+	width: 100%;
 }
 h2{
 	font-size: 35px;
@@ -44,6 +53,11 @@ text-align:center;
 h3{
 	text-align: center;
 	font-size: 25px;
+}
+
+h4{
+	font-size: 25px;
+	text-align: left;
 }
 
 a{
@@ -61,13 +75,56 @@ p{
 
 /***************Hero Section ***************/
 
+h1{
+	position: absolute;
+	text-align: right;
+	width: 50%;
+	right: 10%;
+	top: 40%;
+	
+	
+}
+h1 span {
+	background-color: rgba(66,66,66,0.60);
+	
+}
+.hero_portfolio{
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/portfolio_desk_lukas_lehmann.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hero_uebermich{
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/ueber_mich_desk_lukas_lehmann.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hero_kontakt{
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/kontakt_desk_lukas_lehmann.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hero_location{
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/location_desk_lukas_lehmann.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
 #hero{
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/A7X9506-Bearbeitet.jpg");
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/hochzeitsfotograf_schwarzwald_lukas_lehmann_quer (1).jpg");
 		    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 
 }
+
 #mob_title{
 	display: none;
 }
@@ -337,6 +394,77 @@ margin-top: 50px;
 }
 
 
+
+/************Location***************/
+
+.location-grid{
+
+	
+	
+		display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	position: relative;
+}
+
+.loc-box{
+	height: 400px;
+	padding: 40px;
+	margin: 40px;
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.loc-box:hover{
+
+	height: 380px;
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
+.loc-content p{
+	text-align: right;
+	
+	bottom: 30px;
+right: 10px;
+	color: white;
+	position: relative;
+    transform: translate(10px, 350px);
+}
+
+.loc-title1{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/location/hochzeit_henslerhof_Hinterzarten_title.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	
+}
+
+.loc-title2{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/location/hochzeit_reinertonishof_schönwald_title.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.loc-title3{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/location/hochzeit_schloss_hornberg_title.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	
+}
+
+.loc-title4{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/location/hochzeit_standesamt_freiburg_title.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	
+}
+
+
+
 /*****************Übermich *************/
 
 .grid_5050{
@@ -352,14 +480,25 @@ display: grid;
    justify-content:center;
 	
 	display: flex;
+	flex-direction: column;
 	padding: 10%;
 	
 	padding-left: 20%;
 	padding-right: 20%
 	
 }
+.grid_item h3{
+	text-align:left;
+}
+.uebermich-text{
+	display: flex;
+	flex-direction: column;
+}
 
-
+.uebermich-text p{
+		font-size: 2em;
+	text-align: center;
+	}	
 
 
 
@@ -430,11 +569,19 @@ display: grid;
 
 }
 
+.btn-container{
+	
+	width: 15%;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
 .button{
 	border: solid 2px #7C7C7C;
 		background-color: #424242;
 	padding: 10px;
-		transition: 0.3s;
+		transition: 0.2s;
 	display: flex;
 	color: white;
    justify-content:center;
@@ -444,8 +591,15 @@ display: grid;
 	color: #424242;
 	background-color:white;
 	
-	transition: 0.3s;
+	transition: 0.2s;
 }
+
+#faqfrage {
+	padding-top: 0;
+	margin-top: -20px;
+	
+}
+
 
 /*************Footer**************/
 .footer {
@@ -473,6 +627,18 @@ display: grid;
 	padding-left: 10%;
 	padding-right: 10%;
 }
+@media (max-width:1200px){
+.location-grid{
+
+	
+	
+		display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	position: relative;
+}
+}
+
+
 
 @media (max-width:968px){
 	
@@ -487,12 +653,28 @@ display: grid;
 		
 		top: 10%;
 	}
-	#mob_title h1{
+	#mob_title h3{
 		margin: 0;
 		padding-left: 10%;
 		padding-right: 10%;
+		font-size: 1em;
+    margin-top: 30px;
 		
 	}
+	.unterseite_title h3{
+		color: white;
+		
+	}
+	h1{
+	position: absolute;
+	text-align: right;
+	width: 50%;
+	right: 10%;
+	top: 40%;
+	font-size: 2em;
+	
+}
+	
 .portcontainer{
 	
 	grid-template-columns: 50% 50%;
@@ -510,8 +692,17 @@ display: grid;
 		padding-bottom: 5%;
 	}
 	
+	
+	
+	
 .trennstrich:after{
 	display: none;
+}
+	
+	.btn-container{
+	
+	width: 40%;
+	
 }
 .faq_border{
 	border-right: none;
@@ -521,7 +712,7 @@ display: grid;
 	#navi{
 		display: none;
 	}
-	#titel h1{
+	#titel h3{
 		text-align: center;
 		
 	}
@@ -529,13 +720,52 @@ display: grid;
 		padding: 0;
 		
 	}
+	
+	
+	.loc-box{
+	
+	padding: 20px;
+	margin: 20px;
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.loc-box:hover{
+margin: 15px;
+	
+	opacity: 0.8;
+	transition: 0.3s;
+}
 }
 
 
 @media (max-width:550px){
 	
+	
+	
+	#unterseite_h1 h1{
+	
+	font-size: 3em;
+	
+}
+	.hero_portfolio{
+		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/portfolio_mob_lukas_lehmann.jpg")!important;
+		  
+}
+	.hero_uebermich{
+		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/ueber_ich_mob_lukas_lehmann.jpg")!important;
+		  
+}
+	.hero_kontakt{
+		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/kontakt_mob_lukas_lehmann.jpg")!important;
+		  
+}
+		.hero_location{
+		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/location_mob_lukas_lehmann.jpg")!important;
+}
+	
 	#hero{
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.1) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/DSC4169-Bearbeitet.jpg");
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/hochzeitsfotograf_schwarzwald_lukas_lehmann_hoch (23).jpg");
 	}
 	
 	.hero_call a{
@@ -548,6 +778,16 @@ display: grid;
 	width: 30px;
 	height: 30px;
 	}
+	
+	h1{
+	position: absolute;
+	text-align: right;
+	width: 70%;
+	right: 10%;
+	top: 40%;
+	font-size: 2em;
+	
+}
 	
 .portcontainer{
 	
@@ -572,8 +812,47 @@ display: grid;
 	padding-right: 1em;
 	
 }
+	.btn-container{
+	
+	width: 90%;
+	
+}
 
 	
+	.location-grid{
+
+	
+	
+		display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	position: relative;
+}
+	
+	.loc-box{
+	height: 200px;
+	padding: 20px;
+	margin: 20px;
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.loc-box:hover{
+margin: 15px;
+	height: 180px;
+	opacity: 0.8;
+	transition: 0.3s;
+}
+	
+	
+.loc-content p{
+	text-align: right;
+	
+	bottom: 30px;
+right: 10px;
+	color: white;
+	position: relative;
+    transform: translate(10px, 150px);
+}
 }
 
 
