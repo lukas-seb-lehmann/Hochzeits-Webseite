@@ -64,7 +64,7 @@ ga('send', 'pageview');
 function funzustimmen(){
 	var now = new Date();
   var time = now.getTime();
-  var expireTime = time + 3600*4392;
+  var expireTime = time + 3600*4392000;
   now.setTime(expireTime);
   document.cookie = 'name=nocookie;expires='+now.toUTCString()+';path=/';
 	
