@@ -62,7 +62,12 @@ ga('send', 'pageview');
  }
 
 function funzustimmen(){
-	document.cookie = "name=nocookie";
+	var now = new Date();
+  var time = now.getTime();
+  var expireTime = time + 1000*36000;
+  now.setTime(expireTime);
+  document.cookie = 'name=nocookie;expires='+now.toUTCString()+';path=/';
+	
 	var containerelement = document.getElementById("container");
 	containerelement.classList.remove("active");
 	
