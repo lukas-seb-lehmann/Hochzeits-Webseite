@@ -627,7 +627,8 @@ form input {
 	
 }
 label{
-  font-family: "Refomrma_1918"; 
+  font-family: "Refomrma_1918";
+	text-align: left;
 }
 form .button{
 	  font-family: "Refomrma_1918";
