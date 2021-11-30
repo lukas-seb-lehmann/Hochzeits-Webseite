@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Danke für deine Nachricht</title>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+<style>
+   @import url("css/style.css") screen;
+   </style>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<meta name="google-site-verification" content="VMXV6vG9rwI5u8NCANg7NqTMaPSEkSHdb16LJfYtnyE" />
+
+</head>
+
+<body>
+	
+	<div id="navi">
+		<div id="titel"><a href="/"><h3>Lukas Lehmann - Hochzeitsfotograf</h3></a>
+		<p>Furtwangen im Schwarzwald</p></div>
+		<ul id="desk_menu">
+     	
+		
+			<li><a href="/" onClick="trackmenuportfolio()">Start</a></li>
+			<li><a href="galerie.html" onClick="trackmenuportfolio()">Portfolio</a></li>
+			<li><a href="ueber_mich.html" onClick="trackmenuuebermich()">Über mich</a></li>
+			<li><a href="location.html" onClick="trackmenufaq()">Locations</a></li>
+			<li><a href="kontakt_FAQ.html" onClick="trackmenukontakt()">Kontakt &amp; FAQ</a></li> 
+  </ul>
+		</div>
+	
+	<div id="ham" onClick="span1rot(),menu(),span2dis(),span3rot()">
+			<span id="span1"></span>
+  			<span id="span2"></span>
+  			<span id="span3"></span>
+		</div>
+	
+	<div id="menu">	
+		<ul class="menu_ani">
+			<li> <p> <a href="/" onClick="span1rot(),menu(),span2dis(),span3rot(),trackmenuportfolio()">Start</a> </p> </li>
+			<li> <p> <a href="galerie.html" onClick="span1rot(),menu(),span2dis(),span3rot(),trackmenuportfolio()">Portfolio</a> </p> </li>
+			<li> <p> <a href="ueber_mich.html" onClick="span1rot(),menu(),span2dis(),span3rot(),trackmenuuebermich()">Über mich</a> </p> </li>
+			<li> <p> <a href="location.html" onClick="span1rot(),menu(),span2dis(),span3rot(),trackmenufaq()">Locations</a> </p> </li>
+			<li> <p> <a href="kontakt_FAQ.html" onClick="span1rot(),menu(),span2dis(),span3rot(),trackmenukontakt()">Kontakt &amp; FAQ</a> </p> </li>
+		</ul>
+	</div>
+	
+	
+	
+	
+	<div class="uebermich" id="uebermich">
+	
+	<h2 style="padding-top: 200px">Danke für deine Nachricht</h2>
+	
+	<div class="grid_5050">
+
+		<div class="grid_item">
+	<img src="bilder/DSC5290-Bearbeitet.jpg" alt="">
+		</div>
+		
+		<div class="grid_item" style="text-align: center">
+	<p>Danke für deine Nachricht! Ich werde mich zeitnah bei dir melden und wir können uns persönlich kennenlernen. <br> <br>
+		In der Zwischenzeit würde ich über einen Follow bei <a href="https://www.instagram.com/lukas_hochzeitsfotograf/" style="color: #F1B96F; text-decoration: underline">Instagram </a>freuen. Damit du immer auf dem Laufenden bleibst.
+		Bis Bald!
+</p>
+			
+		</div>	
+		
+		<span class="trennstrich"> </span>
+	
+	</div>
+	
+	</div>
+	
+	
+	
+		<div class="footer">
+	
+	<div class="faq_container">
+		<div class="faq_frage">
+			<a>Lukas Lehmann</a>
+		</div>
+		<div class="faq_frage">
+			<a>Furtwangen im Schwarzwald</a>
+		</div>
+		<div class="faq_frage">
+			<a href="impressum.html">Impressum | </a><a href="datenschutz.html">Datenschutz</a>
+			
+			
+		</div>
+		</div>
+	</div>
+	<div class="cookie-container active" id="container">
+		
+		<p class="cookie-text">Ich nutze Cookies, Pixel und weitere Technologien, unter anderem auch von Dritten, um meine Dienste anzubieten. Diese Dienste verbessern die Inhalte deiner Werbeanzeigen. Mit dem Klick auf "Zustimmen" werden diese Technologien aktiviert. Deine Zustimmung kannst du jeder Zeit in der <a href="datenschutz.html">Datenschutzerklärung</a> zurückziehen. Mit dem Klick auf "ablehnen" werden keine Tracking-Dienste gestartet.</p>
+		<div class="btn-flex-container">
+		<p class="btn-anpassen" onClick="funanpassen()">ablehnen</p>
+		<p class="btn-zustimmen" onClick="funzustimmen()">Zustimmen</p>
+		</div>
+		
+		
+		
+		</div>
+		
+	
+	<script type="text/javascript" src="js/function.js"></script>
+</body>
+</html>
