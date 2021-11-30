@@ -601,6 +601,42 @@ display: grid;
 }
 
 
+/*******FORM Style**********/
+form input {
+	width: 90%;
+	
+}
+.form-group textarea{
+	width: 100%;
+}
+.form-group {
+	padding: 0;
+	margin: 0;
+	
+}
+.form-element{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+.form-first-row{
+	display: flex;
+	flex-direction: row;
+	gap: 5%;
+	justify-content: space-between;
+	
+}
+label{
+  font-family: "Refomrma_1918"; 
+}
+form .button{
+	  font-family: "Refomrma_1918";
+	font-size: 20px;
+}
+.form-row{
+	display: flex;
+	flex-direction: row;
+}
 /*************Footer**************/
 .footer {
 	text-align: center;
