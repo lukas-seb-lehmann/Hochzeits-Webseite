@@ -45,10 +45,10 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'G-SRC8XTZ052', 'auto');
 ga('send', 'pageview');*/
-	
+	fbq('consent', 'grant');
 }
 
-f
+
 
 
 
