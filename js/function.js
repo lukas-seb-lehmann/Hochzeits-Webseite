@@ -63,7 +63,7 @@ f
 	var containerelement = document.getElementById("container");
 	containerelement.classList.remove("active");
 	starttracking();
-	
+	fbq('consent', 'grant');
   }
  }
 
@@ -78,7 +78,7 @@ function funzustimmen(){
 	containerelement.classList.remove("active");
 	
 	starttracking();
-
+fbq('consent', 'grant');
 	
 }
 
