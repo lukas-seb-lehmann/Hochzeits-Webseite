@@ -78,7 +78,7 @@ function funzustimmen(){
 	containerelement.classList.remove("active");
 	
 	starttracking();
-fbq('consent', 'grant');
+/*fbq('consent', 'grant');*/
 	
 }
 
