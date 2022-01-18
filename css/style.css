@@ -359,6 +359,18 @@ margin-top: 50px;
 	
 }
 
+.anzahl {
+	width: 100%;
+	background: #f1b96f
+}
+.anzahl p{
+	text-align: center;
+	padding: 10px;
+
+	margin: 0;
+	
+}
+
 .hero_call{
 	
 	position: absolute;
