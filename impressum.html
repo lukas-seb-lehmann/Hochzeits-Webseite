@@ -11,15 +11,17 @@
 </head>
 		<body>
 		<div id="navi">
-			<div id="titel"><a href="/"><h1>Lukas Lehmann - Hochzeitsfotograf</h1></a></div>
+		<div id="titel"><a href="/"><h3>Lukas Lehmann - Hochzeitsfotograf</h3></a>
+		<p>Lahr | Schwarzwald | BW</p></div>
 		<ul id="desk_menu">
      	
 		
-			
-			<li><a href="index.html#portfolio">Portfolio</a></li>
-			<li><a href="index.html#uebermich">Über mich</a></li>
-			<li><a href="index.html#faq">FAQ</a></li>
-			<li><a href="index.html#kontakt">Kontakt</a></li> 
+			<li><a href="/" onClick="trackmenuportfolio()">Start</a></li>
+			<li><a href="galerie.html" onClick="trackmenuportfolio()">Portfolio</a></li>
+			<li><a href="ueber_mich.html" onClick="trackmenuuebermich()">Über mich</a></li>
+			<li><a href="location.html" onClick="trackmenufaq()">Locations</a></li>
+			<li><a href="infos.html" onClick="trackmenufaq()">Infos</a></li>
+			<li><a href="kontakt.html" onClick="trackmenukontakt()">Kontakt</a></li> 
   </ul>
 		</div>
 	
@@ -31,17 +33,19 @@
 	
 	<div id="menu">	
 		<ul class="menu_ani">
-			<li> <p> <a href="index.html#portfolio" onClick="span1rot(),menu(),span2dis(),span3rot()">Portfolio</a> </p> </li>
-			<li> <p> <a href="index.html#uebermich" onClick="span1rot(),menu(),span2dis(),span3rot()">Über mich</a> </p> </li>
-			<li> <p> <a href="index.html#faq" onClick="span1rot(),menu(),span2dis(),span3rot()">FAQ</a> </p> </li>
-			<li> <p> <a href="index.html#kontakt" onClick="span1rot(),menu(),span2dis(),span3rot()">Kontakt</a> </p> </li>
+			<li> <p> <a href="/" onClick="span1rot(),menu(),span2dis(),span3rot(),trackmenuportfolio()">Start</a> </p> </li>
+			<li> <p> <a href="galerie.html" onClick="span1rot(),menu(),span2dis(),span3rot(),trackmenuportfolio()">Portfolio</a> </p> </li>
+			<li> <p> <a href="ueber_mich.html" onClick="span1rot(),menu(),span2dis(),span3rot(),trackmenuuebermich()">Über mich</a> </p> </li>
+			<li> <p> <a href="location.html" onClick="span1rot(),menu(),span2dis(),span3rot(),trackmenufaq()">Locations</a> </p> </li>
+			<li> <p> <a href="infos.html" onClick="span1rot(),menu(),span2dis(),span3rot(),trackmenufaq()">Infos</a> </p> </li>
+			<li> <p> <a href="kontakt.html" onClick="span1rot(),menu(),span2dis(),span3rot(),trackmenukontakt()">Kontakt</a> </p> </li>
 		</ul>
 	</div>
 
 	<div id="recht">
-		<h1>Impressum</h1>
+		<h1 >Impressum</h1>
 
-<h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
+<h2 >Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
 <p>Lukas Lehmann<br />
 Lukas Lehmann<br />
 Neckarstra&szlig;e<br />

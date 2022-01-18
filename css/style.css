@@ -115,6 +115,12 @@ h1 span {
     background-repeat: no-repeat;
     background-position: center center;
 }
+.hero_infos{
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/infos_desk_lukas_lehmann.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 
 #hero{
@@ -130,7 +136,7 @@ h1 span {
 }
 /*************ham navi************/
 #ham{
-	position: fixed;
+	position: absolute;
 	width: 45px;
   height: 45px;
 	display: none;
@@ -304,7 +310,7 @@ margin-top: 50px;
 }
 /************ham navi ende***************/
 #navi{
-	position: fixed;
+	position: absolute;
 	width: 100%;
 	height: auto;
 	z-index: 11;
@@ -638,6 +644,39 @@ form .button{
 	display: flex;
 	flex-direction: row;
 }
+
+
+
+/*************FAQ - Infos************/
+
+.faq_fragen {
+	padding-left: 10%;
+	padding-right: 10%;
+	position: relative;
+	width: 80%;
+	
+}
+
+
+.faq_fragen h3{
+	text-align: left;
+	
+}
+.trennstrich_hori:after{
+	content: '';
+	height: 2px;
+	position:absolute;
+	width: 30%;
+	background-color: #7C7C7C;
+	left: 50%;
+	bottom: -10px;
+	transform: translate(-50%,-50%);
+	transform-origin: center;
+	
+	
+}
+
+
 /*************Footer**************/
 .footer {
 	text-align: center;
@@ -799,6 +838,9 @@ margin: 15px;
 }
 		.hero_location{
 		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/location_mob_lukas_lehmann.jpg")!important;
+}	
+	.hero_infos{
+		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/infos_mob_lukas_lehmann.jpg")!important;
 }
 	
 	#hero{
