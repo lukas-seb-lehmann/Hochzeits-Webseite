@@ -1,4 +1,10 @@
 // JavaScript Document
+
+
+
+
+
+
 function span1rot() {
 	var span1 = document.getElementById("span1");
 	span1.classList.toggle("active1");
@@ -92,3 +98,9 @@ function deletecookie(){
 	document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 UTC;";
 }
  
+
+
+
+
+
+  
