@@ -1263,11 +1263,7 @@ display: flex;
 	left: 50%;
 	transform: translate(-50%, 0);
 }
-#es-feed-lightbox .es-close{
-	
-	background-image: url(https://cdn-icons.flaticon.com/png/512/2997/premium/2997911.png?token=exp=1643367913~hmac=7309efab4f3041155f9509ff224af7fc)!important;
-	
-}
+
 
 @media (max-width:1300px){
 .slide{
