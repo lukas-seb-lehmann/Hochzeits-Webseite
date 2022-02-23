@@ -1326,4 +1326,162 @@ display: flex;
 }
 
 
+/*Ablauf Style*/
 
+.weg-container{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position: relative;
+}
+.weg-container p{
+	margin-top: -5px;
+	margin-bottom: 0;
+	
+}
+.weg-aufteilung{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	height: 200px;
+	position: relative;
+}
+.weg-text{
+	width: 48%; 
+}
+.weg-links{
+	text-align: right;
+}
+.weg-rechts{
+	text-align: left;
+}
+.kreis-strich-container{
+	width: 4%;
+	height: 100%;
+	display: flex;
+	
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.weg-kreis {
+	width: 20px;
+	height: 20px;
+	background-color: #424242;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 3;
+
+}
+.trennstrich-ablauf{
+	height: 100%;
+	width: 2px;
+	background-color: #424242;
+	position: absolute;
+	
+}
+.dicke-schrift{
+	font-family: "Reforma_1918_negra";
+}
+
+
+.weg-container-mob{
+	display: none;
+	flex-direction: column;
+	width: 90%;
+	position: relative;
+}
+
+.weg-aufteilung-mob{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	height: 300px;
+	position: relative;
+}
+.kreis-strich-container-mob{
+	width: 10%;
+	height: 100%;
+	display: flex;
+	
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+
+}
+.weg-text-mob{
+	width: 90%; 
+}
+
+.weg-kreis-mob {
+	width: 20px;
+	height: 20px;
+	background-color: #424242;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 3;
+
+}
+.trennstrich-ablauf-mob{
+	height: 100%;
+	width: 2px;
+	background-color: #424242;
+	position: absolute;
+	
+}
+.weg-container-mob p{
+	margin-top: -5px;
+	margin-bottom: 0;
+	
+}
+
+@media (max-width:900px){
+	
+	.weg-container{
+		width: 90%;
+	}
+	
+}
+
+@media (max-width:650px){
+	
+	.weg-container{
+		display: none!important;
+	}
+	.weg-container-mob{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position: relative;
+}
+}
+@media (max-width:499px){
+	.weg-aufteilung-mob{
+		height: 350px!important;
+	}
+}
+
+@media (max-width:380px){
+	.weg-aufteilung-mob{
+		height: 400px!important;
+	}
+}
+
+
+/*.trennstrich-ablauf:after{
+	content: '';
+	height: 90%;
+	position:absolute;
+	width: 2px;
+	background-color: #7C7C7C;
+	left: 50%;
+	top: 30px;
+	transform: translate(-50%,0%);
+	transform-origin: center;
+}*/
