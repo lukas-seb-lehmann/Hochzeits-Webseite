@@ -52,7 +52,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'G-SRC8XTZ052', 'auto');
 ga('send', 'pageview');*/
 	fbq('consent', 'grant');
-	document.getElementById("google-maps-div").innerHTML ='<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165.73001231749444!2d7.754699594344757!3d48.34745202290661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4790e9eb09568295%3A0x90620af1a9d4fe36!2sLukas%20Lehmann%20-%20Hochzeitsfotograf%20Lahr%2FSchwarzwald!5e0!3m2!1sde!2sde!4v1645819582327!5m2!1sde!2sde" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>'
+	document.getElementById("google-maps-div").innerHTML ='<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d84853.84459905875!2d7.754466!3d48.347405!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x90620af1a9d4fe36!2sLukas%20Lehmann%20-%20Hochzeitsfotograf%20Lahr%2FSchwarzwald!5e0!3m2!1sde!2sde!4v1645819832012!5m2!1sde!2sde" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>'
 }
 
 
