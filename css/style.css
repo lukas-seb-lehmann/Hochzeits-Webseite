@@ -71,6 +71,21 @@ a{
 	font-size: 20px;
 	text-decoration: none;
 }
+.link{
+	color: #F1B96F;
+	  font-family: "Reforma_1918_negra";
+	font-size: 20px;
+	text-decoration: underline;
+	transition-duration: 0.5s;
+}
+
+.link:hover{
+	color: #424242;
+	  font-family: "Reforma_1918_negra";
+	font-size: 20px;
+	text-decoration:none;
+	transition-duration: 0.5s;
+}
 
 p{
 	color: #424242;
