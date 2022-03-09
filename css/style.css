@@ -148,6 +148,12 @@ h1 span {
     background-position: center center;
 }
 
+.hero_bildlook{
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/bildlook_desk_lukas_lehmann.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 #hero{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/hochzeitsfotograf_schwarzwald_lukas_lehmann_quer (1).jpg");
@@ -759,6 +765,8 @@ form .button{
 	border-width: 1px;
 	
 }
+
+
 .bestseller{
 	background-color: #f1b96f;
 	top: 0;
@@ -962,6 +970,10 @@ margin: 15px;
 }
 	.hero_preise{
 		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/preise_mob_lukas_lehmann.jpg")!important;
+}
+	
+		.hero_bildlook{
+		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/bildlook_mob_lukas_lehmann.jpg")!important;
 }
 	
 	#hero{
