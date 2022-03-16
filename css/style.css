@@ -43,7 +43,7 @@ h1{
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 8em;
+	font-size: 4em;
 	width: 100%;
 }
 h2{
@@ -947,7 +947,7 @@ margin: 15px;
 	
 	#unterseite_h1 h1{
 	
-	font-size: 3em;
+	font-size: 1.5em;
 	
 }
 	.hero_portfolio{
