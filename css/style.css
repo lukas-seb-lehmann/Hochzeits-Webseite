@@ -37,6 +37,31 @@ h1{
 	font-size: 4.5em;
 	color: white;
 }
+
+.h1_startseite {
+	font-size: 2em!important;
+	position: absolute;
+	bottom: 20%;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, 0);
+	
+}
+.h2_startseite{
+	text-align: right;
+	font-size: 4em;
+
+	position: absolute;
+	right: 10%;
+	top: 10%;
+	color: #F1B96F;
+	
+}
+
+.h2_startseite span{
+	background-color: rgba(66,66,66,.7);
+	
+}
 #unterseite_h1 h1{
 	text-align: center;
 	position: absolute;
@@ -95,19 +120,36 @@ p{
 
 /***************Hero Section ***************/
 
-h1{
-	position: absolute;
-	text-align: right;
-	width: 50%;
-	right: 10%;
-	top: 40%;
+.dauer_cta{
+	position: fixed;
+	background-color: rgba(241,185,111,1);
+bottom: 10%;
+	right: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	z-index: 20;
+	display: flex;
+	flex-direction: row;
 	
-	
+	align-items: center;
+	transition-duration: .5s;
 }
-h1 span {
-	background-color: rgba(66,66,66,0.60);
-	
+
+.dauer_cta:hover{
+	background-color: rgba(241,185,111,0.6);
+	transition-duration: .5s;
 }
+.dauer_cta img{
+margin-right: 10px;
+	height: 32px;
+	opacity: 0.6;
+}
+
+.dauer_cta p{
+	font-family: "Reforma_1918_negra";
+}
+
+
 .hero_portfolio{
 		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/portfolio_desk_lukas_lehmann.jpg")!important;
 		    background-size: cover;
@@ -156,7 +198,7 @@ h1 span {
 }
 
 #hero{
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/hochzeitsfotograf_schwarzwald_lukas_lehmann_quer (1).jpg");
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/hochzeitsfotograf_lahr_lukas_lehmann.jpg");
 		    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -856,7 +898,7 @@ form .button{
 	text-align: right;
 	width: 50%;
 	right: 10%;
-	top: 40%;
+	bottom: 10%;
 	font-size: 2em;
 	
 }
@@ -939,7 +981,16 @@ margin: 15px;
 		margin-top: 10px;
 	}
 }
-
+@media (max-width:729px){
+	.dauer_cta{display: none;}
+	.h2_startseite {
+		font-size: 3em;
+		top: 20%;
+	}
+		
+		
+		
+}
 
 @media (max-width:550px){
 	
@@ -991,14 +1042,15 @@ margin: 15px;
 	height: 30px;
 	}
 	
-	h1{
-	position: absolute;
-	text-align: right;
-	width: 70%;
-	right: 10%;
-	top: 40%;
-	font-size: 2em;
 	
+.h1_startseite{
+		bottom: 20%!important;
+	 font-size: 1.5em!important;
+		
+	}
+.h2_startseite{
+	font-size: 2em;
+	top: 40%
 }
 	
 .portcontainer{
