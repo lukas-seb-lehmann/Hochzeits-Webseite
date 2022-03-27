@@ -366,48 +366,38 @@ margin-top: 50px;
 	border-right: 3px solid rgba(66,66,66,1);
 	left: 10px;
 }
-@media (max-width:968px){
-	#ham{
-		display: block;
-	}
-	
-	#menu a, #menu p{
-	text-align: center;
-	margin: 0px;
-	margin-bottom: 30px;
-		font-size: 20px;
-	
 
-	
-
-}
-}
 /************ham navi ende***************/
-#navi{
-	position: absolute;
-	width: 100%;
-	height: auto;
-	z-index: 11;
-	background-color:rgba(255,255,255,0.80);
-	
-}
-#navi #titel{
-	float: left;
-	padding-left: 100px;
-}
 
-#navi ul{
-	float: right;
+#desk_menu{
 	display: flex;
 	list-style: none;
-	padding-right: 100px;
-	top: 50%;
-	position: relative
-	
-	
+	position: fixed;
+	z-index: 50;
+	background-color: rgba(255,255,255,.8);
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: 100%;
+	margin: 0;
+justify-content:center;
+	align-items: center;
 }
+.logo{
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 150px;
+}
+
 #navi ul li a{
 	padding: 20px;
+	font-size: 18px;
+}
+
+#navi .navi_cta{
+	background-color: #F1B96F;
+	border-radius: 20px;
+	margin-left: 10px;
+	
 }
 
 #titel p{
@@ -457,7 +447,23 @@ margin-top: 50px;
 	text-align: center;
 	color: white;
 }
+	@media (max-width:1211px){
+	#ham{
+		display: block;
+	}
 	
+	#menu a, #menu p{
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 30px;
+		font-size: 20px;
+	
+
+	
+
+}
+	#desk_menu{display: none;}
+}
 /************Portfolio Section ***************/
 
 .portcontainer{
@@ -864,6 +870,7 @@ form .button{
 	grid-template-columns: repeat(2, 1fr);
 	position: relative;
 }
+	
 }
 
 
