@@ -149,7 +149,18 @@ margin-right: 10px;
 	font-family: "Reforma_1918_negra";
 }
 
+.insta_logo{
+	top: 90%;
+	left: 5%;
+	
+	position: relative;
+	z-index: 500;
+	
+}
 
+.insta_logo img{
+	height: 30px;
+}
 .hero_portfolio{
 		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/portfolio_desk_lukas_lehmann.jpg")!important;
 		    background-size: cover;
