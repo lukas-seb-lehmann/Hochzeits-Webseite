@@ -475,6 +475,18 @@ justify-content:center;
 }
 	#desk_menu{display: none;}
 }
+
+
+.video-item video{
+	width: 80%;
+}
+
+@media (max-width:600px){
+	.video-item video{
+	width: 95%;
+}
+	
+}
 /************Portfolio Section ***************/
 
 .portcontainer{
@@ -1064,6 +1076,7 @@ margin: 15px;
 .h1_startseite{
 		bottom: 20%!important;
 	 font-size: 1.5em!important;
+	width: 95%;
 		
 	}
 .h2_startseite{
