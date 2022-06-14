@@ -208,6 +208,32 @@ margin-right: 10px;
     background-position: center center;
 }
 
+.hero_location_euro{
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/location/Europapark_Rust/heiraten_europapark_rust-14.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hero_location_klaus{
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/location/Klausenbauernhof_wolfach/heiraten_klausenbauernhof_wolfach.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero_location_frei{
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/location/standesamt_freiburg/heiraten_standesamt_freiburg.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero_location_horn{
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/location/schloss_hornberg/heiraten_schloss_hornberg.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 #hero{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/hochzeitsfotograf_lahr_lukas_lehmann.jpg");
 		    background-size: cover;
@@ -578,6 +604,20 @@ right: 10px;
 
 .loc-title4{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/location/hochzeit_standesamt_freiburg_title.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	
+}
+.loc-title5{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/location/Europapark_Rust//heiraten_europapark_rust-14.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	
+}
+.loc-title6{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.5) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/location/Klausenbauernhof_wolfach/heiraten_klausenbauernhof_wolfach-8.jpg")!important;
 		    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1375,6 +1415,60 @@ display: flex;
 }
 
 
+
+
+
+/*************Location Seiten***********/
+
+.location-text{
+	width: 70%;
+	left: 50%;
+	position: relative;
+	transform: translate(-50%, 0);
+}
+
+.img-float-right{
+	float: right;
+	width: 50%;
+	margin-left: 10px;
+	padding: 20px;
+	padding-right: 0;
+}
+.img-float-left{
+	float: left;
+	width: 50%;
+	margin-right: 10px;
+	padding: 20px;
+	padding-left: 0;
+}
+
+.align-center-img{
+		left: 50%;
+	position: relative;
+	transform: translate(-50%, 0);
+	width: 80%;
+}
+
+.cta-location{
+	width: 50%; text-align: center; left: 50%; transform: translate(-50%,0); position: relative; margin-bottom: 100px;
+}
+
+@media (max-width:1000px){
+	.img-float-left, .img-float-right{
+		left: 50%;
+	position: relative;
+	transform: translate(-50%, 0);
+	width: 80%;
+		float: none;
+		padding: 0;
+		margin: 0;
+	}
+
+
+}
+
+
+
 @media (max-width:1300px){
 .slide{
 	
@@ -1433,6 +1527,10 @@ display: flex;
 	width: 100%;
 
 }
+	
+	.cta-location{
+	width: 90%;
+	}
 }
 
 
