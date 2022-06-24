@@ -260,12 +260,13 @@ margin-right: 10px;
 margin-top: 50px;
 	right: 50px;
 	z-index: 100;
+	
 }
 #ham span{
 	position: absolute;
 	width: 100%;
   height: 6px;
-  background-color: #424242;
+  background-color: white;
  
 	border-radius: 3px;
 
@@ -344,7 +345,7 @@ margin-top: 50px;
 	  transition-duration: .5s;
 		transition-timing-function: ease-out;
 	z-index: 20;
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.9);
 
 	}
 	
@@ -955,7 +956,7 @@ form .button{
 		position: relative;
 		position: absolute;
 		
-		top: 10%;
+		
 	}
 	#mob_title h3{
 		margin: 0;
@@ -963,6 +964,7 @@ form .button{
 		padding-right: 10%;
 		font-size: 1em;
     margin-top: 30px;
+		color: white;
 		
 	}
 	.unterseite_title h3{
@@ -1078,29 +1080,29 @@ margin: 15px;
 	
 }
 	.hero_portfolio{
-		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/portfolio_mob_lukas_lehmann.jpg")!important;
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/neu/lukas_lehmann_hochzeitsfotograf_lahr-35.jpg")!important;
 		  
 }
 	.hero_uebermich{
-		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/ueber_ich_mob_lukas_lehmann.jpg")!important;
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/Titelbilder/ueber_ich_mob_lukas_lehmann.jpg")!important;
 		  
 }
 	.hero_kontakt{
-		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/kontakt_mob_lukas_lehmann.jpg")!important;
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/Titelbilder/kontakt_mob_lukas_lehmann.jpg")!important;
 		  
 }
 		.hero_location{
-		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/location_mob_lukas_lehmann.jpg")!important;
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/Titelbilder/location_mob_lukas_lehmann.jpg")!important;
 }	
 	.hero_infos{
-		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/infos_mob_lukas_lehmann.jpg")!important;
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/Titelbilder/infos_mob_lukas_lehmann.jpg")!important;
 }
 	.hero_preise{
-		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/preise_mob_lukas_lehmann.jpg")!important;
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/Titelbilder/preise_mob_lukas_lehmann.jpg")!important;
 }
 	
 		.hero_bildlook{
-		background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 100%), url("../bilder/Titelbilder/bildlook_mob_lukas_lehmann.jpg")!important;
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.8) 100%), url("../bilder/Titelbilder/bildlook_mob_lukas_lehmann.jpg")!important;
 }
 	
 	#hero{
