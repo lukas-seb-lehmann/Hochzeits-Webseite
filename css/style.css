@@ -303,6 +303,7 @@ margin-top: 50px;
 	transform: rotate(-45deg);
 	transition-duration: 0.5s;
 	transition-timing-function: ease-out;
+	background-color: #424242;
 	
 }
 #span2.active2{
@@ -317,7 +318,7 @@ margin-top: 50px;
 	transform-origin: center;
 	transform: rotate(45deg);
 	transition-duration: 0.5s;
-	transition-timing-function: ease-out;
+	transition-timing-function: ease-out;background-color: #424242;
 	
 }
 	#menu{	
