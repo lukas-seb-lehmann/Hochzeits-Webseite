@@ -1701,3 +1701,23 @@ display: flex;
 	transform: translate(-50%,0%);
 	transform-origin: center;
 }*/
+
+
+
+#rabatt-btn{
+	width: 70%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,0);
+	background-color:  #F1B96F;
+	color: #424242;
+	font-size: 2em;
+	margin-bottom: 20px; 
+}
+
+@media (max-width:800px){
+	#rabatt-btn{
+		font-size: 1em;
+	}
+}
+
