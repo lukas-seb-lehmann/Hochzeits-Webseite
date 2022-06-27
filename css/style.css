@@ -28,6 +28,9 @@ body, html{
     font-family: "Reforma_1918_negra";
     src:url("../font/reforma.1918-negra.ttf");
 }
+.durch{
+	text-decoration: line-through;
+}
 
 h1,h2,h3,h4{
 	color: #424242;
@@ -235,6 +238,12 @@ margin-right: 10px;
 }
 .hero_location_reiner{
 		background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.7) 100%), url("../bilder/location/Reinertonishof_Schoenwald/hochzeit_reinertonishof_schoenwald_lukas_lehmann-3.jpg")!important;
+		    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero_rabatt{
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.6) 100%), url("../bilder/neu/hochzeitsfotograf_lukas_lehmann-rabatt.jpg")!important;
 		    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
