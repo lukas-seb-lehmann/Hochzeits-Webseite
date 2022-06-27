@@ -28,9 +28,7 @@ body, html{
     font-family: "Reforma_1918_negra";
     src:url("../font/reforma.1918-negra.ttf");
 }
-.durch{
-	text-decoration: line-through;
-}
+
 
 h1,h2,h3,h4{
 	color: #424242;
@@ -1724,6 +1722,10 @@ display: flex;
 	font-size: 2em;
 	margin-bottom: 20px; 
 }
+.durch{
+	text-decoration: line-through;
+}
+
 
 @media (max-width:800px){
 	#rabatt-btn{
