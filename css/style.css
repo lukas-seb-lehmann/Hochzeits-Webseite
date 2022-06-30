@@ -974,6 +974,10 @@ form .button{
 
 @media (max-width:968px){
 	
+	.footer .imp{
+		padding-bottom: 50px!important;
+	}
+	
 	.mob-contact-btn{
 		display: block;
 	}
@@ -1177,7 +1181,7 @@ margin: 15px;
 }
     .faq_frage {
         padding: 0em;
-       
+     
        
 }
 	.grid_item{
