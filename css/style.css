@@ -528,6 +528,25 @@ justify-content:center;
 }
 	
 }
+
+
+/*****mob kontakt btn*********/
+.mob-contact-btn{
+	display: none;
+	  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+	background-color: #F1B96F;
+	text-align: center;
+	z-index: 100;
+}
+
+.mob-contact-btn a{
+	
+}
+
+
 /************Portfolio Section ***************/
 
 .portcontainer{
@@ -954,6 +973,12 @@ form .button{
 
 
 @media (max-width:968px){
+	
+	.mob-contact-btn{
+		display: block;
+	}
+	
+	
 	
 	.desk_menu{
 		display: none;
