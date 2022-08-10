@@ -152,7 +152,7 @@ margin-right: 10px;
 
 .insta_logo{
 	top: 90%;
-	left: 5%;
+	left: 80%;
 	
 	position: relative;
 	z-index: 500;
@@ -758,6 +758,36 @@ display: grid;
 }
 
 
+.quote-start{
+	
+display: flex;
+	flex-direction: row;
+	position: relative;
+
+}
+
+.quote-start img{
+	position: relative;
+	top: -150px;
+	padding: 30px;
+	background-color: white;
+	left: 25%;
+	transform: translate(-50%);
+	
+	
+}
+
+.quote-start h3{
+	text-align: left;
+	font-size: 3em;
+	padding-left: 25%;
+	
+	top: 100px;
+	position: relative;
+	right: 10%;
+}
+
+
 
 /***********FAQ************/
 .faq_container {
@@ -1019,6 +1049,28 @@ left: 50%;
 	padding-left: 10%;
 	padding-right: 10%;
 }
+
+@media (max-width:1600px){
+	.quote-start img{
+	
+	top: -50px;
+	
+	left: 20%;
+	transform: translate(-50%);
+	
+	
+}
+.quote-start h3{
+	
+	font-size: 3em;
+	padding-left: 15%;
+	
+
+}
+	
+}
+
+
 @media (max-width:1200px){
 .location-grid{
 
@@ -1051,6 +1103,28 @@ left: 50%;
 
 	
 }
+	
+	
+
+
+.quote-start img{
+	
+	top: -50px;
+	
+	left: 20%;
+	transform: translate(-50%);
+	height: 300px;
+	
+}
+.quote-start h3{
+	
+	font-size: 2em;
+	padding-left: 15%;
+	
+
+}
+	
+	
 	
 }
 
@@ -1219,14 +1293,50 @@ margin: 15px;
 		top: 20%;
 	}
 		
-		
+	.quote-start img{
+	
+	top: 0px;
+	padding: 10px;
+	left: 2%;
+	transform: translate(0%);
+	height: 300px;
+	
+}
+.quote-start h3{
+	
+	font-size: 2em;
+	padding-left: 5%;
+	right: 2%;
+margin-bottom: 100px;
+}
+	
 		
 }
 
 @media (max-width:550px){
 	
+	.quote-start{
 	
+
+	flex-direction: column;
 	
+
+}
+	.quote-start img{
+		height: 300px;
+		width: 300px;
+		padding: 20px;
+		left: 50%;
+		transform: translate(-50%);
+	}
+	
+	.quote-start h3{
+		text-align: center;
+		left: 0;
+		right: 0;
+		top: 0;
+		padding: 10px;
+	}
 	#unterseite_h1 h1{
 	
 	font-size: 1.5em;
